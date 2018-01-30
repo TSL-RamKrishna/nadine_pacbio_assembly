@@ -1,0 +1,17 @@
+ENV["projectdir"] ? @projectdir = File.dirname(__FILE__) + "/" + ENV["projectdir"] : @projectdir = "HGAP_Assembly"
+ENV["inputfofn"] ? @inputfofn = ENV["inputfofn"] : nil
+@inputxml = File.basename( "#{@inputfofn}", ".*" )
+ENV["setting"] ? @setting = ENV["setting"] : nil
+
+directory "lib"
+directory "#{@projectdir}"
+file "lib/#{@inputxml}.xml" => ["lib", "#{@inputfofn}"] do
+  sh "source smrtanalysis-2.3p5; fofnToSmrtpipeInput.py #{@inputfofn} > lib/#{@inputxml}.xml"
+end
+
+file "#{@projectdir}/data/polished_assembly.fastq.gz" => ["#{@projectdir}", "lib/#{@inputxml}.xml", "#{@setting}"] do
+  sh "source smrtanalysis-2.3p5; smrtpipe.py --distribute -D CLUSTER_MANAGER=SLURM -D PARTITION=tsl-medium -D TMP=/tsl/scratch/shrestha/ilkn_assembly/temp -D NPROC=8 -D NJOBS=4 -D MAX_CHUNKS=64 --params=#{@setting} --output=#{@projectdir}  xml:lib/#{@inputxml}.xml"
+end
+task :run_hgap => ["#{@projectdir}/data/polished_assembly.fastq.gz"]
+
+task :default => [:run_hgap]

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<pacbioAnalysisInputs>
+  <dataReferences>
+    <url ref="run:0000000-0000"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/F02_1/Analysis_Results/m150404_020828_42165_c100722592550000001823150004301544_s1_p0.1.bax.h5</location></url>
+    <url ref="run:0000000-0001"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/F02_1/Analysis_Results/m150404_020828_42165_c100722592550000001823150004301544_s1_p0.2.bax.h5</location></url>
+    <url ref="run:0000000-0002"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/F02_1/Analysis_Results/m150404_020828_42165_c100722592550000001823150004301544_s1_p0.3.bax.h5</location></url>
+    <url ref="run:0000000-0003"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/G02_1/Analysis_Results/m150404_063051_42165_c100722592550000001823150004301545_s1_p0.1.bax.h5</location></url>
+    <url ref="run:0000000-0004"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/G02_1/Analysis_Results/m150404_063051_42165_c100722592550000001823150004301545_s1_p0.2.bax.h5</location></url>
+    <url ref="run:0000000-0005"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/G02_1/Analysis_Results/m150404_063051_42165_c100722592550000001823150004301545_s1_p0.3.bax.h5</location></url>
+    <url ref="run:0000000-0006"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/H02_1/Analysis_Results/m150404_104747_42165_c100722592550000001823150004301546_s1_p0.1.bax.h5</location></url>
+    <url ref="run:0000000-0007"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/H02_1/Analysis_Results/m150404_104747_42165_c100722592550000001823150004301546_s1_p0.2.bax.h5</location></url>
+    <url ref="run:0000000-0008"><location>/tsl/data/dropbox/ilkn/TSL_Nadine_Ilk_TSL_NI_ENQ-832_01/2015_04_01_PSEQ-512_LM_MH_NI_198/SAM17934_PRO862_S3_HMWDNA_N3/raw_reads/H02_1/Analysis_Results/m150404_104747_42165_c100722592550000001823150004301546_s1_p0.3.bax.h5</location></url>
+  </dataReferences>
+</pacbioAnalysisInputs>
